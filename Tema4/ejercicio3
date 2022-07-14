@@ -1,0 +1,7 @@
+print("Bienvenido al programa")
+
+#creamos un for que recorra el rango que nos piden
+#Ponemos reversed() para que lo ejecute al revés
+
+for i in reversed (range (1,101)):
+    print(i)
