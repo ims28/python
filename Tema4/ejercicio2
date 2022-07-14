@@ -1,0 +1,17 @@
+#Pedimos los numeros, minimo y maximo
+
+print("Dame un número minimo: ")
+minimo = input()
+minimo = int(minimo)
+
+print("Dame un número máximo: ")
+maximo = input()
+maximo = int(maximo)
+
+#Creamos un for que recorra ese rango de números dado
+
+for numero in range (minimo, maximo + 1):
+    if (numero % 2==0):
+        continue
+    else:
+        print(numero)
